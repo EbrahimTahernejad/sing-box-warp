@@ -7,11 +7,11 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/sagernet/sing-box/common/badjson"
-	"github.com/sagernet/sing-box/common/humanize"
-	"github.com/sagernet/sing-box/common/json"
-	"github.com/sagernet/sing-box/log"
-	"github.com/sagernet/sing-box/option"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/badjson"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/humanize"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/json"
+	"github.com/ebrahimtahernejad/sing-box-warp/log"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 	E "github.com/sagernet/sing/common/exceptions"
 
 	"github.com/go-chi/chi/v5"

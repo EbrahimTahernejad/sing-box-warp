@@ -3,8 +3,8 @@ package option
 import (
 	"time"
 
-	"github.com/sagernet/sing-box/common/json"
-	C "github.com/sagernet/sing-box/constant"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/json"
+	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
 	E "github.com/sagernet/sing/common/exceptions"
 )
 

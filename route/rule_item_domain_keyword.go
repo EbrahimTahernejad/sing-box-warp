@@ -3,7 +3,7 @@ package route
 import (
 	"strings"
 
-	"github.com/sagernet/sing-box/adapter"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
 )
 
 var _ RuleItem = (*DomainKeywordItem)(nil)

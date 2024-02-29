@@ -3,7 +3,7 @@ package option
 import (
 	"encoding/json"
 
-	"github.com/sagernet/sing-box/common/humanize"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/humanize"
 )
 
 type DebugOptions struct {

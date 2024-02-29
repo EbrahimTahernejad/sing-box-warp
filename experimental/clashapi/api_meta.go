@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/sagernet/sing-box/common/json"
-	"github.com/sagernet/sing-box/experimental/clashapi/trafficontrol"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/json"
+	"github.com/ebrahimtahernejad/sing-box-warp/experimental/clashapi/trafficontrol"
 	"github.com/sagernet/ws"
 	"github.com/sagernet/ws/wsutil"
 

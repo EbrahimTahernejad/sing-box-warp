@@ -9,7 +9,7 @@ import (
 
 	warp "github.com/bepass-org/wireguard-go/warp"
 	ws "github.com/bepass-org/wireguard-go/wiresocks"
-	"github.com/sagernet/sing-box/option"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 )
 
 func WarpSetupFree() error {

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sagernet/sing-box/common/json"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/json"
 	"github.com/sagernet/sing-dns"
 	E "github.com/sagernet/sing/common/exceptions"
 	F "github.com/sagernet/sing/common/format"

@@ -3,7 +3,7 @@
 package include
 
 import (
-	_ "github.com/sagernet/sing-box/transport/v2rayquic"
+	_ "github.com/ebrahimtahernejad/sing-box-warp/transport/v2rayquic"
 	_ "github.com/sagernet/sing-dns/quic"
 )
 

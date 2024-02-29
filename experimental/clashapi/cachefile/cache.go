@@ -11,7 +11,7 @@ import (
 
 	"github.com/sagernet/bbolt"
 	bboltErrors "github.com/sagernet/bbolt/errors"
-	"github.com/sagernet/sing-box/adapter"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
 	"github.com/sagernet/sing/common"
 	E "github.com/sagernet/sing/common/exceptions"
 	"github.com/sagernet/sing/service/filemanager"
