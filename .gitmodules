@@ -1,0 +1,3 @@
+[submodule "wireguard-warp"]
+	path = wireguard-warp
+	url = https://github.com/EbrahimTahernejad/wireguard-warp.git
