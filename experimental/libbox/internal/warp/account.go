@@ -1,5 +1,7 @@
 package warp
 
+// From github.com/bepass-org/wireguard-go
+
 import (
 	"bytes"
 	"context"

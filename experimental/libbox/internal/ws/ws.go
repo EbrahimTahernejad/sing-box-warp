@@ -1,5 +1,7 @@
 package ws
 
+// From github.com/bepass-org/wireguard-go
+
 import (
 	"encoding/base64"
 	"encoding/hex"
