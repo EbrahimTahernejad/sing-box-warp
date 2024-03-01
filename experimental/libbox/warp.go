@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	warp "github.com/bepass-org/wireguard-go/warp"
-	ws "github.com/bepass-org/wireguard-go/wiresocks"
+	"github.com/ebrahimtahernejad/sing-box-warp/experimental/libbox/internal/warp"
+	"github.com/ebrahimtahernejad/sing-box-warp/experimental/libbox/internal/ws"
 	"github.com/ebrahimtahernejad/sing-box-warp/option"
 )
 

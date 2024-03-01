@@ -1,4 +1,4 @@
-package wgparser
+package ws
 
 import (
 	"encoding/base64"
@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bepass-org/wireguard-go/warp"
+	"github.com/ebrahimtahernejad/sing-box-warp/experimental/libbox/internal/warp"
 
 	"github.com/go-ini/ini"
 
