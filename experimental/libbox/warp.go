@@ -63,9 +63,10 @@ func convertConfig(device *ws.DeviceConfig) (*option.WireGuardOutboundOptions, e
 	}
 
 	return &option.WireGuardOutboundOptions{
-		MTU:        uint32(device.MTU),
-		Peers:      peers,
-		PrivateKey: device.SecretKey,
+		MTU:          uint32(device.MTU),
+		Peers:        peers,
+		PrivateKey:   device.SecretKey,
+		LocalAddress: device.Endpoint,
 	}, nil
 }
 
