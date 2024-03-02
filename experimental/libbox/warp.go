@@ -70,7 +70,26 @@ func convertConfig(device *ws.DeviceConfig) (*option.WireGuardOutboundOptions, e
 	}, nil
 }
 
-func WarpGetOutbounds(tag string, endpoint string) (string, error) {
+func WarpGetOutbounds(tag string, endpoint string, nested bool) (string, error) {
+	options := []option.Outbound{}
+	primaryTag := tag
+	if nested {
+		primaryTag = "primary"
+		conf, err := ws.ParseConfig("./warp-secondary/wgcf-profile.ini", endpoint)
+		if err != nil {
+			return "", err
+		}
+		wgOptions, err := convertConfig(conf.Device)
+		if err != nil {
+			return "", err
+		}
+		wgOptions.Detour = primaryTag
+		options = append(options, option.Outbound{
+			Type:             "wireguard",
+			Tag:              tag,
+			WireGuardOptions: *wgOptions,
+		})
+	}
 	conf, err := ws.ParseConfig("./warp-primary/wgcf-profile.ini", endpoint)
 	if err != nil {
 		return "", err
@@ -79,12 +98,12 @@ func WarpGetOutbounds(tag string, endpoint string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	options := option.Outbound{
+	options = append(options, option.Outbound{
 		Type:             "wireguard",
-		Tag:              tag,
+		Tag:              primaryTag,
 		WireGuardOptions: *wgOptions,
-	}
-	jsonData, err := json.Marshal([]option.Outbound{options})
+	})
+	jsonData, err := json.Marshal(options)
 	if err != nil {
 		return "", err
 	}
