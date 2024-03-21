@@ -96,3 +96,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/blake3 v1.2.1 // indirect
 )
+
+replace github.com/sagernet/wireguard-go v0.0.0-20231215174105-89dec3b2f3e8 => github.com/EbrahimTahernejad/wireguard-warp v0.0.0-20240301230915-3b2dbc40a774
