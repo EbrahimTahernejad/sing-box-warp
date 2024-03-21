@@ -5,8 +5,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/cmd/internal/build_shared"
-	"github.com/EbrahimTahernejad/sing-box-warp/log"
+	"github.com/ebrahimtahernejad/sing-box-warp/cmd/internal/build_shared"
+	"github.com/ebrahimtahernejad/sing-box-warp/log"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module github.com/EbrahimTahernejad/sing-box-warp
+module github.com/ebrahimtahernejad/sing-box-warp
 
 go 1.20
 
@@ -11,6 +11,7 @@ require (
 	github.com/go-chi/chi/v5 v5.0.12
 	github.com/go-chi/cors v1.2.1
 	github.com/go-chi/render v1.0.3
+	github.com/go-ini/ini v1.67.0
 	github.com/gofrs/uuid/v5 v5.0.0
 	github.com/insomniacslk/dhcp v0.0.0-20231206064809-8c70d406f6d2
 	github.com/libdns/alidns v1.0.3
@@ -20,6 +21,7 @@ require (
 	github.com/miekg/dns v1.1.58
 	github.com/ooni/go-libtor v1.1.8
 	github.com/oschwald/maxminddb-golang v1.12.0
+	github.com/refraction-networking/utls v1.6.3
 	github.com/sagernet/bbolt v0.0.0-20231014093535-ea5cb2fe9f0a
 	github.com/sagernet/cloudflare-tls v0.0.0-20231208171750-a4483c1b7cd1
 	github.com/sagernet/gomobile v0.1.3
@@ -42,10 +44,12 @@ require (
 	github.com/sagernet/ws v0.0.0-20231204124109-acfe8907c854
 	github.com/spf13/cobra v1.8.0
 	github.com/stretchr/testify v1.9.0
+	go.jonnrb.io/speedtest v0.2.0
 	go.uber.org/zap v1.27.0
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba
 	golang.org/x/crypto v0.21.0
 	golang.org/x/net v0.22.0
+	golang.org/x/sync v0.6.0
 	golang.org/x/sys v0.18.0
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20230429144221-925a1e7659e6
 	google.golang.org/grpc v1.62.1
@@ -79,6 +83,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
 	github.com/quic-go/qtls-go1-20 v0.4.1 // indirect
+	github.com/quic-go/quic-go v0.40.1 // indirect
 	github.com/sagernet/netlink v0.0.0-20220905062125-8043b4a9aa97 // indirect
 	github.com/scjalliance/comshim v0.0.0-20230315213746-5e51f40bd3b9 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect

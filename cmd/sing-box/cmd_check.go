@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	"github.com/EbrahimTahernejad/sing-box-warp"
-	"github.com/EbrahimTahernejad/sing-box-warp/log"
+	"github.com/ebrahimtahernejad/sing-box-warp"
+	"github.com/ebrahimtahernejad/sing-box-warp/log"
 
 	"github.com/spf13/cobra"
 )

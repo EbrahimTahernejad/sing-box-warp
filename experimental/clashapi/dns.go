@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
-	C "github.com/EbrahimTahernejad/sing-box-warp/constant"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
+	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
 	"github.com/sagernet/sing/common"
 
 	"github.com/go-chi/chi/v5"

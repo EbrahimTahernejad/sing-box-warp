@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/EbrahimTahernejad/sing-box-warp"
+	"github.com/ebrahimtahernejad/sing-box-warp"
 	E "github.com/sagernet/sing/common/exceptions"
 	N "github.com/sagernet/sing/common/network"
 

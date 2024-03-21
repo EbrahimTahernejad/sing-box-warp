@@ -6,8 +6,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
-	"github.com/EbrahimTahernejad/sing-box-warp/experimental/clashapi"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
+	"github.com/ebrahimtahernejad/sing-box-warp/experimental/clashapi"
 	E "github.com/sagernet/sing/common/exceptions"
 	"github.com/sagernet/sing/common/rw"
 )

@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
-	"github.com/EbrahimTahernejad/sing-box-warp/experimental/clashapi/trafficontrol"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
+	"github.com/ebrahimtahernejad/sing-box-warp/experimental/clashapi/trafficontrol"
 	"github.com/sagernet/sing/common/json"
 	"github.com/sagernet/ws"
 	"github.com/sagernet/ws/wsutil"

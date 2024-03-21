@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/common/urltest"
-	"github.com/EbrahimTahernejad/sing-box-warp/experimental/clashapi"
-	"github.com/EbrahimTahernejad/sing-box-warp/log"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/urltest"
+	"github.com/ebrahimtahernejad/sing-box-warp/experimental/clashapi"
+	"github.com/ebrahimtahernejad/sing-box-warp/log"
 	"github.com/sagernet/sing/common"
 	"github.com/sagernet/sing/common/debug"
 	E "github.com/sagernet/sing/common/exceptions"

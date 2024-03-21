@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	_ "github.com/sagernet/gomobile"
-	"github.com/EbrahimTahernejad/sing-box-warp/cmd/internal/build_shared"
-	"github.com/EbrahimTahernejad/sing-box-warp/log"
+	"github.com/ebrahimtahernejad/sing-box-warp/cmd/internal/build_shared"
+	"github.com/ebrahimtahernejad/sing-box-warp/log"
 	"github.com/sagernet/sing/common/rw"
 )
 
@@ -51,8 +51,8 @@ func init() {
 	if err != nil {
 		currentTag = "unknown"
 	}
-	sharedFlags = append(sharedFlags, "-ldflags", "-X github.com/EbrahimTahernejad/sing-box-warp/constant.Version="+currentTag+" -s -w -buildid=")
-	debugFlags = append(debugFlags, "-ldflags", "-X github.com/EbrahimTahernejad/sing-box-warp/constant.Version="+currentTag)
+	sharedFlags = append(sharedFlags, "-ldflags", "-X github.com/ebrahimtahernejad/sing-box-warp/constant.Version="+currentTag+" -s -w -buildid=")
+	debugFlags = append(debugFlags, "-ldflags", "-X github.com/ebrahimtahernejad/sing-box-warp/constant.Version="+currentTag)
 
 	sharedTags = append(sharedTags, "with_gvisor", "with_quic", "with_wireguard", "with_ech", "with_utls", "with_clash_api")
 	iosTags = append(iosTags, "with_dhcp", "with_low_memory", "with_conntrack")

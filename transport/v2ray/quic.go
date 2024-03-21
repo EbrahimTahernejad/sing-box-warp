@@ -4,9 +4,9 @@ import (
 	"context"
 	"os"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
-	"github.com/EbrahimTahernejad/sing-box-warp/common/tls"
-	"github.com/EbrahimTahernejad/sing-box-warp/option"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/tls"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 	M "github.com/sagernet/sing/common/metadata"
 	N "github.com/sagernet/sing/common/network"
 )

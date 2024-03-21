@@ -1,7 +1,7 @@
 package build_shared
 
 import (
-	"github.com/EbrahimTahernejad/sing-box-warp/common/badversion"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/badversion"
 	"github.com/sagernet/sing/common"
 	"github.com/sagernet/sing/common/shell"
 )

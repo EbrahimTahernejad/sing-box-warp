@@ -11,8 +11,8 @@ import (
 	"strings"
 
 	cftls "github.com/sagernet/cloudflare-tls"
-	"github.com/EbrahimTahernejad/sing-box-warp/log"
-	"github.com/EbrahimTahernejad/sing-box-warp/option"
+	"github.com/ebrahimtahernejad/sing-box-warp/log"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 	E "github.com/sagernet/sing/common/exceptions"
 	"github.com/sagernet/sing/common/ntp"
 

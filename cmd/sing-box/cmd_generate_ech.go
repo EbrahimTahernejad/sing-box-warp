@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/common/tls"
-	"github.com/EbrahimTahernejad/sing-box-warp/log"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/tls"
+	"github.com/ebrahimtahernejad/sing-box-warp/log"
 
 	"github.com/spf13/cobra"
 )

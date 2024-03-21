@@ -5,10 +5,10 @@ import (
 	"net"
 	"os"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/common/badtls"
-	C "github.com/EbrahimTahernejad/sing-box-warp/constant"
-	"github.com/EbrahimTahernejad/sing-box-warp/log"
-	"github.com/EbrahimTahernejad/sing-box-warp/option"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/badtls"
+	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
+	"github.com/ebrahimtahernejad/sing-box-warp/log"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 	aTLS "github.com/sagernet/sing/common/tls"
 )
 

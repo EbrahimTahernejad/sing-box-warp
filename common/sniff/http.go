@@ -5,8 +5,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
-	C "github.com/EbrahimTahernejad/sing-box-warp/constant"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
+	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
 	M "github.com/sagernet/sing/common/metadata"
 	"github.com/sagernet/sing/protocol/http"
 )

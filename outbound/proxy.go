@@ -7,8 +7,8 @@ import (
 	"encoding/hex"
 	"net"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
-	"github.com/EbrahimTahernejad/sing-box-warp/log"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
+	"github.com/ebrahimtahernejad/sing-box-warp/log"
 	"github.com/sagernet/sing/common"
 	"github.com/sagernet/sing/common/auth"
 	"github.com/sagernet/sing/common/buf"

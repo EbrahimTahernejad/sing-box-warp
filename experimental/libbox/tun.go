@@ -4,7 +4,7 @@ import (
 	"net"
 	"net/netip"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/option"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 	"github.com/sagernet/sing-tun"
 	"github.com/sagernet/sing/common"
 	E "github.com/sagernet/sing/common/exceptions"

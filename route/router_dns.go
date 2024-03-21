@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
-	C "github.com/EbrahimTahernejad/sing-box-warp/constant"
-	"github.com/EbrahimTahernejad/sing-box-warp/log"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
+	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
+	"github.com/ebrahimtahernejad/sing-box-warp/log"
 	"github.com/sagernet/sing-dns"
 	"github.com/sagernet/sing/common/cache"
 	E "github.com/sagernet/sing/common/exceptions"

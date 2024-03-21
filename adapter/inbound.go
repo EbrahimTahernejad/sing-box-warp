@@ -5,8 +5,8 @@ import (
 	"net"
 	"net/netip"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/common/process"
-	"github.com/EbrahimTahernejad/sing-box-warp/option"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/process"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 	M "github.com/sagernet/sing/common/metadata"
 	N "github.com/sagernet/sing/common/network"
 )

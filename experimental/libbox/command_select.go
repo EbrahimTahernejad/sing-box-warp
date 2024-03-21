@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"net"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/outbound"
+	"github.com/ebrahimtahernejad/sing-box-warp/outbound"
 	E "github.com/sagernet/sing/common/exceptions"
 	"github.com/sagernet/sing/common/rw"
 )

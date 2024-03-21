@@ -5,10 +5,10 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
-	"github.com/EbrahimTahernejad/sing-box-warp/experimental"
-	"github.com/EbrahimTahernejad/sing-box-warp/log"
-	"github.com/EbrahimTahernejad/sing-box-warp/option"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
+	"github.com/ebrahimtahernejad/sing-box-warp/experimental"
+	"github.com/ebrahimtahernejad/sing-box-warp/log"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 	"github.com/sagernet/sing/common"
 
 	"google.golang.org/grpc"

@@ -3,7 +3,7 @@ package clashapi
 import (
 	"net/http"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/log"
+	"github.com/ebrahimtahernejad/sing-box-warp/log"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"

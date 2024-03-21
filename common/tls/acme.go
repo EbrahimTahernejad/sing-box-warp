@@ -8,9 +8,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
-	C "github.com/EbrahimTahernejad/sing-box-warp/constant"
-	"github.com/EbrahimTahernejad/sing-box-warp/option"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
+	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 	E "github.com/sagernet/sing/common/exceptions"
 
 	"github.com/caddyserver/certmagic"

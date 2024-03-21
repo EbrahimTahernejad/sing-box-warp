@@ -5,7 +5,7 @@ package tls
 import (
 	"context"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/option"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 	E "github.com/sagernet/sing/common/exceptions"
 )
 

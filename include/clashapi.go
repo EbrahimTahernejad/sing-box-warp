@@ -2,4 +2,4 @@
 
 package include
 
-import _ "github.com/EbrahimTahernejad/sing-box-warp/experimental/clashapi"
+import _ "github.com/ebrahimtahernejad/sing-box-warp/experimental/clashapi"

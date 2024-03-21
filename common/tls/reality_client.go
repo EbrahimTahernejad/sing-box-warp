@@ -27,7 +27,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/option"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 	"github.com/sagernet/sing/common/debug"
 	E "github.com/sagernet/sing/common/exceptions"
 	aTLS "github.com/sagernet/sing/common/tls"

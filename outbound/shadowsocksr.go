@@ -6,9 +6,9 @@ import (
 	"context"
 	"os"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
-	"github.com/EbrahimTahernejad/sing-box-warp/log"
-	"github.com/EbrahimTahernejad/sing-box-warp/option"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
+	"github.com/ebrahimtahernejad/sing-box-warp/log"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 )
 
 var _ int = "ShadowsocksR is deprecated and removed in sing-box 1.6.0"

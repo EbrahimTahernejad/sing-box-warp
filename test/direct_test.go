@@ -4,8 +4,8 @@ import (
 	"net/netip"
 	"testing"
 
-	C "github.com/EbrahimTahernejad/sing-box-warp/constant"
-	"github.com/EbrahimTahernejad/sing-box-warp/option"
+	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 )
 
 // Since this is a feature one-off added by outsiders, I won't address these anymore.

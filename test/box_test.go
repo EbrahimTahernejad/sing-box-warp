@@ -11,9 +11,9 @@ import (
 
 	"github.com/sagernet/quic-go"
 	"github.com/sagernet/quic-go/http3"
-	"github.com/EbrahimTahernejad/sing-box-warp"
-	C "github.com/EbrahimTahernejad/sing-box-warp/constant"
-	"github.com/EbrahimTahernejad/sing-box-warp/option"
+	"github.com/ebrahimtahernejad/sing-box-warp"
+	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 	"github.com/sagernet/sing/common/bufio"
 	"github.com/sagernet/sing/common/debug"
 	M "github.com/sagernet/sing/common/metadata"

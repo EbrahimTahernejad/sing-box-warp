@@ -5,7 +5,7 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
 	"github.com/sagernet/sing/common"
 	"github.com/sagernet/sing/common/atomic"
 	"github.com/sagernet/sing/common/bufio"

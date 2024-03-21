@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
 	"github.com/sagernet/sing/common"
 	E "github.com/sagernet/sing/common/exceptions"
 	M "github.com/sagernet/sing/common/metadata"

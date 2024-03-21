@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
-	"github.com/EbrahimTahernejad/sing-box-warp/common/urltest"
-	"github.com/EbrahimTahernejad/sing-box-warp/outbound"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/urltest"
+	"github.com/ebrahimtahernejad/sing-box-warp/outbound"
 	"github.com/sagernet/sing/common"
 	"github.com/sagernet/sing/common/batch"
 	"github.com/sagernet/sing/common/json/badjson"

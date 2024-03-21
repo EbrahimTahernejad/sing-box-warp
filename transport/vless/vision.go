@@ -11,7 +11,7 @@ import (
 	"time"
 	"unsafe"
 
-	C "github.com/EbrahimTahernejad/sing-box-warp/constant"
+	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
 	"github.com/sagernet/sing/common"
 	"github.com/sagernet/sing/common/buf"
 	"github.com/sagernet/sing/common/bufio"

@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/common/sniff"
-	C "github.com/EbrahimTahernejad/sing-box-warp/constant"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/sniff"
+	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
 
 	"github.com/stretchr/testify/require"
 )

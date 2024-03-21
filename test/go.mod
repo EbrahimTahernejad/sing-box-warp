@@ -2,9 +2,9 @@ module test
 
 go 1.20
 
-require github.com/EbrahimTahernejad/sing-box-warp v0.0.0
+require github.com/ebrahimtahernejad/sing-box-warp v0.0.0
 
-replace github.com/EbrahimTahernejad/sing-box-warp => ../
+replace github.com/ebrahimtahernejad/sing-box-warp => ../
 
 require (
 	github.com/docker/docker v24.0.7+incompatible

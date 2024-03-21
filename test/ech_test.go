@@ -4,9 +4,9 @@ import (
 	"net/netip"
 	"testing"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/common/tls"
-	C "github.com/EbrahimTahernejad/sing-box-warp/constant"
-	"github.com/EbrahimTahernejad/sing-box-warp/option"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/tls"
+	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 	"github.com/sagernet/sing/common"
 
 	"github.com/gofrs/uuid/v5"

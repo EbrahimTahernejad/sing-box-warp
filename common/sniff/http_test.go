@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/common/sniff"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/sniff"
 
 	"github.com/stretchr/testify/require"
 )

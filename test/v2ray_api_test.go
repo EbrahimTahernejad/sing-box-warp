@@ -5,9 +5,9 @@ import (
 	"net/netip"
 	"testing"
 
-	C "github.com/EbrahimTahernejad/sing-box-warp/constant"
-	"github.com/EbrahimTahernejad/sing-box-warp/experimental/v2rayapi"
-	"github.com/EbrahimTahernejad/sing-box-warp/option"
+	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
+	"github.com/ebrahimtahernejad/sing-box-warp/experimental/v2rayapi"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 
 	"github.com/stretchr/testify/require"
 )

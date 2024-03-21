@@ -8,7 +8,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/common/urltest"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/urltest"
 	N "github.com/sagernet/sing/common/network"
 	"github.com/sagernet/sing/common/rw"
 )

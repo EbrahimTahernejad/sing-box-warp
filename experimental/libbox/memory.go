@@ -4,7 +4,7 @@ import (
 	"math"
 	runtimeDebug "runtime/debug"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/common/conntrack"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/conntrack"
 )
 
 func SetMemoryLimit(enabled bool) {

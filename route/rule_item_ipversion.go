@@ -1,7 +1,7 @@
 package route
 
 import (
-	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
 )
 
 var _ RuleItem = (*IPVersionItem)(nil)

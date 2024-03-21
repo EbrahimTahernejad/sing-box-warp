@@ -5,8 +5,8 @@ import (
 	"net"
 	"os"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/common/tls"
-	internal_credentials "github.com/EbrahimTahernejad/sing-box-warp/transport/v2raygrpc/credentials"
+	"github.com/ebrahimtahernejad/sing-box-warp/common/tls"
+	internal_credentials "github.com/ebrahimtahernejad/sing-box-warp/transport/v2raygrpc/credentials"
 
 	"google.golang.org/grpc/credentials"
 )

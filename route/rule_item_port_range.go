@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
+	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
 	E "github.com/sagernet/sing/common/exceptions"
 )
 
