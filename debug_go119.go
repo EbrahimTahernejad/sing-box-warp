@@ -5,8 +5,8 @@ package box
 import (
 	"runtime/debug"
 
-	"github.com/sagernet/sing-box/common/conntrack"
-	"github.com/sagernet/sing-box/option"
+	"github.com/EbrahimTahernejad/sing-box-warp/common/conntrack"
+	"github.com/EbrahimTahernejad/sing-box-warp/option"
 )
 
 func applyDebugOptions(options option.DebugOptions) {

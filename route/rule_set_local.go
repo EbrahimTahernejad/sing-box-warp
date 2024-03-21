@@ -4,10 +4,10 @@ import (
 	"context"
 	"os"
 
-	"github.com/sagernet/sing-box/adapter"
-	"github.com/sagernet/sing-box/common/srs"
-	C "github.com/sagernet/sing-box/constant"
-	"github.com/sagernet/sing-box/option"
+	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
+	"github.com/EbrahimTahernejad/sing-box-warp/common/srs"
+	C "github.com/EbrahimTahernejad/sing-box-warp/constant"
+	"github.com/EbrahimTahernejad/sing-box-warp/option"
 	E "github.com/sagernet/sing/common/exceptions"
 	"github.com/sagernet/sing/common/json"
 )

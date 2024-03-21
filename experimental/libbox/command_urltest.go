@@ -5,9 +5,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/sagernet/sing-box/adapter"
-	"github.com/sagernet/sing-box/common/urltest"
-	"github.com/sagernet/sing-box/outbound"
+	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
+	"github.com/EbrahimTahernejad/sing-box-warp/common/urltest"
+	"github.com/EbrahimTahernejad/sing-box-warp/outbound"
 	"github.com/sagernet/sing/common"
 	"github.com/sagernet/sing/common/batch"
 	E "github.com/sagernet/sing/common/exceptions"

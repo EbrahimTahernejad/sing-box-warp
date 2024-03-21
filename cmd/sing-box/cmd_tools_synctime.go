@@ -4,9 +4,9 @@ import (
 	"context"
 	"os"
 
-	"github.com/sagernet/sing-box/common/settings"
-	C "github.com/sagernet/sing-box/constant"
-	"github.com/sagernet/sing-box/log"
+	"github.com/EbrahimTahernejad/sing-box-warp/common/settings"
+	C "github.com/EbrahimTahernejad/sing-box-warp/constant"
+	"github.com/EbrahimTahernejad/sing-box-warp/log"
 	E "github.com/sagernet/sing/common/exceptions"
 	M "github.com/sagernet/sing/common/metadata"
 	N "github.com/sagernet/sing/common/network"

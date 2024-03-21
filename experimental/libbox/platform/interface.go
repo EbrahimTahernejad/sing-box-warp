@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/netip"
 
-	"github.com/sagernet/sing-box/adapter"
-	"github.com/sagernet/sing-box/common/process"
-	"github.com/sagernet/sing-box/option"
+	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
+	"github.com/EbrahimTahernejad/sing-box-warp/common/process"
+	"github.com/EbrahimTahernejad/sing-box-warp/option"
 	"github.com/sagernet/sing-tun"
 	"github.com/sagernet/sing/common/control"
 	"github.com/sagernet/sing/common/logger"

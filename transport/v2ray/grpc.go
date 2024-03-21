@@ -5,11 +5,11 @@ package v2ray
 import (
 	"context"
 
-	"github.com/sagernet/sing-box/adapter"
-	"github.com/sagernet/sing-box/common/tls"
-	"github.com/sagernet/sing-box/option"
-	"github.com/sagernet/sing-box/transport/v2raygrpc"
-	"github.com/sagernet/sing-box/transport/v2raygrpclite"
+	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
+	"github.com/EbrahimTahernejad/sing-box-warp/common/tls"
+	"github.com/EbrahimTahernejad/sing-box-warp/option"
+	"github.com/EbrahimTahernejad/sing-box-warp/transport/v2raygrpc"
+	"github.com/EbrahimTahernejad/sing-box-warp/transport/v2raygrpclite"
 	M "github.com/sagernet/sing/common/metadata"
 	N "github.com/sagernet/sing/common/network"
 )

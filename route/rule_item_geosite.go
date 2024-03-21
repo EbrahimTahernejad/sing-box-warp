@@ -3,8 +3,8 @@ package route
 import (
 	"strings"
 
-	"github.com/sagernet/sing-box/adapter"
-	"github.com/sagernet/sing-box/log"
+	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
+	"github.com/EbrahimTahernejad/sing-box-warp/log"
 	E "github.com/sagernet/sing/common/exceptions"
 )
 

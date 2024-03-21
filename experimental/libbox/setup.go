@@ -5,8 +5,8 @@ import (
 	"os/user"
 	"strconv"
 
-	"github.com/sagernet/sing-box/common/humanize"
-	C "github.com/sagernet/sing-box/constant"
+	"github.com/EbrahimTahernejad/sing-box-warp/common/humanize"
+	C "github.com/EbrahimTahernejad/sing-box-warp/constant"
 )
 
 var (

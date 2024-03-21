@@ -3,7 +3,7 @@ package route
 import (
 	"strings"
 
-	"github.com/sagernet/sing-box/adapter"
+	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
 	"github.com/sagernet/sing/common/domain"
 )
 

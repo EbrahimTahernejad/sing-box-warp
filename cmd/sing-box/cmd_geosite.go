@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/sagernet/sing-box/common/geosite"
-	"github.com/sagernet/sing-box/log"
+	"github.com/EbrahimTahernejad/sing-box-warp/common/geosite"
+	"github.com/EbrahimTahernejad/sing-box-warp/log"
 	E "github.com/sagernet/sing/common/exceptions"
 
 	"github.com/spf13/cobra"

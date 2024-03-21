@@ -6,8 +6,8 @@ import (
 	"net"
 	"os"
 
-	"github.com/sagernet/sing-box/adapter"
-	C "github.com/sagernet/sing-box/constant"
+	"github.com/EbrahimTahernejad/sing-box-warp/adapter"
+	C "github.com/EbrahimTahernejad/sing-box-warp/constant"
 	"github.com/sagernet/sing-dns"
 	"github.com/sagernet/sing/common"
 	"github.com/sagernet/sing/common/buf"
