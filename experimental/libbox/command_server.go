@@ -6,6 +6,7 @@ import (
 	"os"
 	"path/filepath"
 	"sync"
+	"strconv"
 
 	"github.com/ebrahimtahernejad/sing-box-warp/common/urltest"
 	"github.com/ebrahimtahernejad/sing-box-warp/experimental/clashapi"
@@ -109,7 +110,7 @@ func (s *CommandServer) listenUNIX() error {
 }
 
 func (s *CommandServer) listenTCP() error {
-	listener, err := net.Listen("tcp", "127.0.0.1:" + string(sTVOSPort))
+	listener, err := net.Listen("tcp", "127.0.0.1:" + strconv.Itoa(sTVOSPort))
 	if err != nil {
 		return E.Cause(err, "listen")
 	}
