@@ -6,6 +6,7 @@ import (
 	"os"
 	"path/filepath"
 	"time"
+	"strconv"
 
 	"github.com/sagernet/sing/common"
 	E "github.com/sagernet/sing/common/exceptions"
@@ -51,7 +52,7 @@ func (c *CommandClient) directConnect() (net.Conn, error) {
 			Net:  "unix",
 		})
 	} else {
-		return net.Dial("tcp", "127.0.0.1:" + string(sTVOSPort))
+		return net.Dial("tcp", "127.0.0.1:" + strconv.Itoa(sTVOSPort))
 	}
 }
 
