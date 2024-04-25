@@ -51,7 +51,7 @@ func (c *CommandClient) directConnect() (net.Conn, error) {
 			Net:  "unix",
 		})
 	} else {
-		return net.Dial("tcp", "127.0.0.1:8964")
+		return net.Dial("tcp", "127.0.0.1:" + string(sTVOSPort))
 	}
 }
 
