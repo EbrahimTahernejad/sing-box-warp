@@ -16,14 +16,16 @@ var (
 	sUserID      int
 	sGroupID     int
 	sTVOS        bool
+	sTVOSPort    int
 )
 
-func Setup(basePath string, workingPath string, tempPath string, isTVOS bool) {
+func Setup(basePath string, workingPath string, tempPath string, isTVOS bool, tvOSPort int) {
 	sBasePath = basePath
 	sWorkingPath = workingPath
 	sTempPath = tempPath
 	sUserID = os.Getuid()
 	sGroupID = os.Getgid()
+	sTVOSPort = tvOSPort
 	sTVOS = isTVOS
 	os.MkdirAll(sWorkingPath, 0o777)
 	os.MkdirAll(sTempPath, 0o777)
@@ -37,6 +39,7 @@ func SetupWithUsername(basePath string, workingPath string, tempPath string, use
 	if err != nil {
 		return err
 	}
+	sTVOSPort = 8964
 	sUserID, _ = strconv.Atoi(sUser.Uid)
 	sGroupID, _ = strconv.Atoi(sUser.Gid)
 	os.MkdirAll(sWorkingPath, 0o777)

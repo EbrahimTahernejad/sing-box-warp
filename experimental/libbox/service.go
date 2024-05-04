@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/sagernet/sing-box"
+	box "github.com/sagernet/sing-box"
 	"github.com/sagernet/sing-box/adapter"
 	"github.com/sagernet/sing-box/common/process"
 	"github.com/sagernet/sing-box/common/urltest"
@@ -18,7 +18,7 @@ import (
 	"github.com/sagernet/sing-box/experimental/libbox/platform"
 	"github.com/sagernet/sing-box/log"
 	"github.com/sagernet/sing-box/option"
-	"github.com/sagernet/sing-tun"
+	tun "github.com/sagernet/sing-tun"
 	"github.com/sagernet/sing/common"
 	"github.com/sagernet/sing/common/control"
 	E "github.com/sagernet/sing/common/exceptions"
@@ -55,6 +55,36 @@ func NewService(configContent string, platformInterface PlatformInterface) (*Box
 		Options:           options,
 		PlatformInterface: platformWrapper,
 		PlatformLogWriter: platformWrapper,
+	})
+	if err != nil {
+		cancel()
+		return nil, E.Cause(err, "create service")
+	}
+	runtimeDebug.FreeOSMemory()
+	return &BoxService{
+		ctx:                   ctx,
+		cancel:                cancel,
+		instance:              instance,
+		urlTestHistoryStorage: urlTestHistoryStorage,
+		pauseManager:          service.FromContext[pause.Manager](ctx),
+	}, nil
+}
+
+func NewServiceNoPI(configContent string, logger log.PlatformWriter) (*BoxService, error) {
+	options, err := parseConfig(configContent)
+	if err != nil {
+		return nil, err
+	}
+	runtimeDebug.FreeOSMemory()
+	ctx, cancel := context.WithCancel(context.Background())
+	ctx = filemanager.WithDefault(ctx, sWorkingPath, sTempPath, sUserID, sGroupID)
+	urlTestHistoryStorage := urltest.NewHistoryStorage()
+	ctx = service.ContextWithPtr(ctx, urlTestHistoryStorage)
+	instance, err := box.New(box.Options{
+		Context:           ctx,
+		Options:           options,
+		PlatformInterface: nil,
+		PlatformLogWriter: logger,
 	})
 	if err != nil {
 		cancel()
