@@ -1,7 +1,7 @@
 package constant
 
 import (
-	"github.com/sagernet/sing-box/constant/goos"
+	"github.com/ebrahimtahernejad/sing-box-warp/constant/goos"
 )
 
 const IsAndroid = goos.IsAndroid == 1

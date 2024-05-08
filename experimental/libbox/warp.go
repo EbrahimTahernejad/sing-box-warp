@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sagernet/sing-box/experimental/libbox/internal/warp"
-	"github.com/sagernet/sing-box/experimental/libbox/internal/ws"
-	"github.com/sagernet/sing-box/option"
+	"github.com/ebrahimtahernejad/sing-box-warp/experimental/libbox/internal/warp"
+	"github.com/ebrahimtahernejad/sing-box-warp/experimental/libbox/internal/ws"
+	"github.com/ebrahimtahernejad/sing-box-warp/option"
 )
 
 func WarpSetupFree() error {

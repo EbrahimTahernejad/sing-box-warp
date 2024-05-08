@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sagernet/sing-box/experimental/libbox/internal/warp"
+	"github.com/ebrahimtahernejad/sing-box-warp/experimental/libbox/internal/warp"
 
 	"github.com/go-ini/ini"
 
