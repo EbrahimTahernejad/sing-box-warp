@@ -3,8 +3,8 @@ package dialer
 import (
 	"time"
 
-	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
-	"github.com/ebrahimtahernejad/sing-box-warp/option"
+	"github.com/sagernet/sing-box/adapter"
+	"github.com/sagernet/sing-box/option"
 	"github.com/sagernet/sing-dns"
 	N "github.com/sagernet/sing/common/network"
 )

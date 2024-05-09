@@ -1,8 +1,8 @@
 package route
 
 import (
-	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
-	"github.com/ebrahimtahernejad/sing-box-warp/option"
+	C "github.com/sagernet/sing-box/constant"
+	"github.com/sagernet/sing-box/option"
 	"github.com/sagernet/sing/common"
 )
 

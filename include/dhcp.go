@@ -2,4 +2,4 @@
 
 package include
 
-import _ "github.com/ebrahimtahernejad/sing-box-warp/transport/dhcp"
+import _ "github.com/sagernet/sing-box/transport/dhcp"

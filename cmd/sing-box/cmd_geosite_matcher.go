@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ebrahimtahernejad/sing-box-warp/common/geosite"
+	"github.com/sagernet/sing-box/common/geosite"
 )
 
 type searchGeositeMatcher struct {

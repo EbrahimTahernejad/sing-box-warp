@@ -4,9 +4,9 @@ import (
 	"net/netip"
 	"testing"
 
-	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
-	"github.com/ebrahimtahernejad/sing-box-warp/option"
-	"github.com/ebrahimtahernejad/sing-box-warp/transport/vless"
+	C "github.com/sagernet/sing-box/constant"
+	"github.com/sagernet/sing-box/option"
+	"github.com/sagernet/sing-box/transport/vless"
 )
 
 func TestVLESSVisionReality(t *testing.T) {

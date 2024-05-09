@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/ebrahimtahernejad/sing-box-warp/cmd/internal/build_shared"
-	"github.com/ebrahimtahernejad/sing-box-warp/log"
+	"github.com/sagernet/sing-box/cmd/internal/build_shared"
+	"github.com/sagernet/sing-box/log"
 )
 
 func main() {

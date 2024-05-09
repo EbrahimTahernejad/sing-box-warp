@@ -1,4 +1,4 @@
-module github.com/ebrahimtahernejad/sing-box-warp
+module github.com/sagernet/sing-box
 
 go 1.20
 

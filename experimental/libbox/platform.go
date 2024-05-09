@@ -1,7 +1,7 @@
 package libbox
 
 import (
-	"github.com/ebrahimtahernejad/sing-box-warp/option"
+	"github.com/sagernet/sing-box/option"
 )
 
 type PlatformInterface interface {

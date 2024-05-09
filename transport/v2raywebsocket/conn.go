@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
+	C "github.com/sagernet/sing-box/constant"
 	"github.com/sagernet/sing/common"
 	"github.com/sagernet/sing/common/buf"
 	"github.com/sagernet/sing/common/debug"

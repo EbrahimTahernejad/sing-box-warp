@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
+	C "github.com/sagernet/sing-box/constant"
 
 	"github.com/spf13/cobra"
 )

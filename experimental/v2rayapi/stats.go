@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
-	"github.com/ebrahimtahernejad/sing-box-warp/option"
+	"github.com/sagernet/sing-box/adapter"
+	"github.com/sagernet/sing-box/option"
 	"github.com/sagernet/sing/common/atomic"
 	"github.com/sagernet/sing/common/bufio"
 	E "github.com/sagernet/sing/common/exceptions"

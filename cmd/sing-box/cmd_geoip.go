@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/ebrahimtahernejad/sing-box-warp/log"
+	"github.com/sagernet/sing-box/log"
 	E "github.com/sagernet/sing/common/exceptions"
 
 	"github.com/oschwald/maxminddb-golang"

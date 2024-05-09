@@ -4,7 +4,7 @@ import (
 	"net/netip"
 	"sync"
 
-	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
+	"github.com/sagernet/sing-box/adapter"
 	"github.com/sagernet/sing/common/logger"
 )
 

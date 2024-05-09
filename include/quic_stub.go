@@ -5,11 +5,11 @@ package include
 import (
 	"context"
 
-	"github.com/ebrahimtahernejad/sing-box-warp/adapter"
-	"github.com/ebrahimtahernejad/sing-box-warp/common/tls"
-	C "github.com/ebrahimtahernejad/sing-box-warp/constant"
-	"github.com/ebrahimtahernejad/sing-box-warp/option"
-	"github.com/ebrahimtahernejad/sing-box-warp/transport/v2ray"
+	"github.com/sagernet/sing-box/adapter"
+	"github.com/sagernet/sing-box/common/tls"
+	C "github.com/sagernet/sing-box/constant"
+	"github.com/sagernet/sing-box/option"
+	"github.com/sagernet/sing-box/transport/v2ray"
 	"github.com/sagernet/sing-dns"
 	"github.com/sagernet/sing/common/logger"
 	M "github.com/sagernet/sing/common/metadata"

@@ -1,6 +1,6 @@
 package geosite
 
-import "github.com/ebrahimtahernejad/sing-box-warp/option"
+import "github.com/sagernet/sing-box/option"
 
 type ItemType = uint8
 

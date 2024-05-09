@@ -4,7 +4,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/ebrahimtahernejad/sing-box-warp/log"
+	"github.com/sagernet/sing-box/log"
 	F "github.com/sagernet/sing/common/format"
 
 	"github.com/spf13/cobra"
