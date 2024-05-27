@@ -55,9 +55,9 @@ func NewClientTransport(ctx context.Context, dialer N.Dialer, serverAddr M.Socks
 	case C.V2RayTransportTypeWebsocket:
 		return v2raywebsocket.NewClient(ctx, dialer, serverAddr, options.WebsocketOptions, tlsConfig)
 	case C.V2RayTransportTypeQUIC:
-		if tlsConfig == nil {
+		/*if tlsConfig == nil {
 			return nil, C.ErrTLSRequired
-		}
+		}*/
 		return NewQUICClient(ctx, dialer, serverAddr, options.QUICOptions, tlsConfig)
 	case C.V2RayTransportTypeHTTPUpgrade:
 		return v2rayhttpupgrade.NewClient(ctx, dialer, serverAddr, options.HTTPUpgradeOptions, tlsConfig)
